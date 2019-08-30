@@ -126,7 +126,6 @@ func BundleBuildAndRun(ui UI, dir string, runner *runner.Runner, poller *poller.
 	}
 
 	ui.ShowRebuildDone()
-	fmt.Println("cmx,m,cx")
 	return
 }
 
