@@ -1,3 +1,3 @@
-module github.com/advanderveer/9d587b277/line
+module github.com/wirebase/wire
 
 go 1.13

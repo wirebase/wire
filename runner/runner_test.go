@@ -3,7 +3,7 @@ package runner_test
 import (
 	"testing"
 
-	"github.com/advanderveer/9d587b277/line/runner"
+	"github.com/wirebase/wire/runner"
 )
 
 func TestRunningOfQuickProcess(t *testing.T) {

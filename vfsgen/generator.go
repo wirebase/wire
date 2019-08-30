@@ -14,7 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/advanderveer/9d587b277/line/vfsgen/vfsutil"
+	"github.com/wirebase/wire/vfsgen/vfsutil"
 )
 
 // Generate Go code that statically implements input filesystem,

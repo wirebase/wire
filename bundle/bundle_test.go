@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/advanderveer/9d587b277/line/bundle"
+	"github.com/wirebase/wire/bundle"
 )
 
 func TestBundling(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/advanderveer/9d587b277/line/compile"
+	"github.com/wirebase/wire/compile"
 )
 
 func TestCompilerCreation(t *testing.T) {

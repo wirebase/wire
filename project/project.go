@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/advanderveer/9d587b277/line/bundle"
-	"github.com/advanderveer/9d587b277/line/compile"
-	"github.com/advanderveer/9d587b277/line/poller"
-	"github.com/advanderveer/9d587b277/line/runner"
+	"github.com/wirebase/wire/bundle"
+	"github.com/wirebase/wire/compile"
+	"github.com/wirebase/wire/poller"
+	"github.com/wirebase/wire/runner"
 )
 
 // Config configures the development server

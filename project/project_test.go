@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/advanderveer/9d587b277/line/poller"
-	"github.com/advanderveer/9d587b277/line/project"
-	"github.com/advanderveer/9d587b277/line/runner"
+	"github.com/wirebase/wire/poller"
+	"github.com/wirebase/wire/project"
+	"github.com/wirebase/wire/runner"
 )
 
 var _ project.UI = &project.TerseTerminal{}

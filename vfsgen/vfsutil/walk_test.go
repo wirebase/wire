@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/advanderveer/9d587b277/line/vfsgen/vfsutil"
+	"github.com/wirebase/wire/vfsgen/vfsutil"
 )
 
 func testFilesystem(tb testing.TB, files map[*[]string]string) (fs http.FileSystem, clean func()) {

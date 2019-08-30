@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/advanderveer/9d587b277/line/vfsgen"
+	"github.com/wirebase/wire/vfsgen"
 )
 
 func testFilesystem(tb testing.TB, files map[*[]string]string) (dir string, fs http.FileSystem, clean func()) {

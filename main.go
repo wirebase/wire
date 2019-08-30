@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/advanderveer/9d587b277/line/project"
+	"github.com/wirebase/wire/project"
 )
 
 func main() {

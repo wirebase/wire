@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/advanderveer/9d587b277/line/vfsgen"
+	"github.com/wirebase/wire/vfsgen"
 )
 
 // Bundle describes the directory in which all static assets to eventually

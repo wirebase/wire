@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/advanderveer/9d587b277/line/poller"
+	"github.com/wirebase/wire/poller"
 )
 
 func TestPollFileCreation(t *testing.T) {
