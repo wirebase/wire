@@ -3,7 +3,6 @@ package poller
 import (
 	"context"
 	"errors"
-	"fmt"
 	"os"
 	"path/filepath"
 	"time"
@@ -135,7 +134,6 @@ func (p *Poller) scan(t time.Time, cfg Config) (nt time.Time, err error) {
 
 		// if we found any file that is newer, then our last scan we're done
 		if fi.ModTime().After(t) {
-			fmt.Println(fi.ModTime(), "after", t)
 			nt = fi.ModTime()
 			return stop
 		}
