@@ -67,6 +67,8 @@ func New(dir string, pollf time.Duration) (b *Project) {
 // the polling will stop.
 func (p *Project) Run(ctx context.Context) error {
 	runner := runner.New()
+	defer runner.Kill()
+
 	poller := poller.New(ctx, p.dir, p.pollf)
 	ui := NewTerseTerminal(os.Stderr)
 
